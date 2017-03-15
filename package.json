@@ -1,0 +1,21 @@
+{
+  "name": "toposplit",
+  "version": "0.0.1",
+  "description": "split topojson file into a folder of topojson files, one for each object.",
+  "bin": {
+	"toposplit": "bin/toposplit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jakekara/toposplit.git"
+  },
+  "keywords": [
+    "topojson"
+  ],
+  "author": "Jake Kara",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jakekara/toposplit/issues"
+  },
+  "homepage": "https://jakekara.github.io/toposplit"
+}

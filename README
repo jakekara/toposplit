@@ -1,0 +1,44 @@
+README
+
+toposplit - Split big topojson files into a file for each object. 
+
+INSTALL
+
+npm install https://github.com/jakekara/toposplit
+
+USAGE
+
+toposplit --input INPUT_FILE[--outdir OUTPUT_DIRECTORY | --feature FEATURE_TO_SPLIT] 
+
+--input INPUT_FILE 		      INPUT_FILE is the json file you want to
+    				      split 
+
+--outdir OUTPUT_DIRECTORY	      OUTPUT_DIRECTORY is the directory you want
+	 			      the files to be stored in 
+				      
+--feature FEATURE_TO_SPLIT	      This is for generating a file from only
+	  			      one object This option supercedes --outdir.
+
+EXAMPLE
+
+The demo dir contains demo.sh, which downloads a Census block file, splits it into
+layers using mapshaper, and then uses topojson to split that into separate
+files.
+
+To use it, git clone this repository into some_dir
+
+   $ git clone git@github.com:jakekara/toposplit.git
+
+cd into the demo folder
+
+   $ cd toposplit/demo
+
+Run the demo script:
+
+    $ chmod 755 demo.sh
+    $ ./demo.sh
+
+ABOUT
+
+This is my first node program. I'm surprised this feature wasn't in the topojson
+utilities Matt Bostock wrote or mapshaper. As the demo explains, both
