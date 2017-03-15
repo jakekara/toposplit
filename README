@@ -4,7 +4,7 @@ toposplit - Split big topojson files into a file for each object.
 
 INSTALL
 
-npm install https://github.com/jakekara/toposplit
+npm install https://github.com/jakekara/toposplit -g
 
 USAGE
 
