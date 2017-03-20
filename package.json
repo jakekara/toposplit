@@ -1,6 +1,6 @@
 {
   "name": "toposplit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "split topojson file into a folder of topojson files, one for each object.",
   "bin": {
 	"toposplit": "bin/toposplit.js"

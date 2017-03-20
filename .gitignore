@@ -1,2 +1,4 @@
 demo/raw/
 demo/parts
+node_modules
+npm-debug.log

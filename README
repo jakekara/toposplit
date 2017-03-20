@@ -1,6 +1,12 @@
 README
 
-toposplit - Split big topojson files into a file for each object. 
+toposplit - Split big topojson files into a file for each object.
+
+CURRENT VERSION 0.0.2
+
+This is pretty much just a script I was writing for a very specific project, so
+I don't know how fully I will flesh this out, hence the very early version
+number. See CHANGES for more about each version.
 
 INSTALL
 

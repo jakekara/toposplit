@@ -1,0 +1,3 @@
+0.0.2
+- Added exception handling
+- Reordered functions to better abstract components
