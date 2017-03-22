@@ -1,6 +1,6 @@
 {
   "name": "toposplit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "split topojson file into a folder of topojson files, one for each object.",
   "bin": {
 	"toposplit": "bin/toposplit.js"
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jakekara/toposplit/issues"
   },
-  "homepage": "https://jakekara.github.io/toposplit"
+    "homepage": "https://jakekara.github.io/toposplit",
+    "dependencies":{
+	"topojson":"2.2.0",
+	"command-line-args":"1.0.2"
+    }
 }
