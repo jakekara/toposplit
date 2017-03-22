@@ -10,7 +10,15 @@ number. See CHANGES for more about each version.
 
 INSTALL
 
+from repo:
 npm install https://github.com/jakekara/toposplit -g
+
+from npm
+npm install toposplit -g
+
+NPM PAGE
+
+https://www.npmjs.com/package/toposplit
 
 USAGE
 
