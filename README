@@ -39,7 +39,7 @@ The demo dir contains demo.sh, which downloads a Census block file, splits it in
 layers using mapshaper, and then uses topojson to split that into separate
 files.
 
-NOTE: This demo requires wget
+NOTE: This demo requires wget (brew install wget) and mapshaper (npm install -g mapshaper)
 
 To use it, git clone this repository into some_dir
 
