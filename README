@@ -39,9 +39,11 @@ The demo dir contains demo.sh, which downloads a Census block file, splits it in
 layers using mapshaper, and then uses topojson to split that into separate
 files.
 
+NOTE: This demo requires wget
+
 To use it, git clone this repository into some_dir
 
-   $ git clone git@github.com:jakekara/toposplit.git
+   $ git clone https://github.com/jakekara/toposplit.git
 
 cd into the demo folder
 
