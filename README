@@ -2,7 +2,7 @@ README
 
 toposplit - Split big topojson files into a file for each object.
 
-CURRENT VERSION 0.0.3
+CURRENT VERSION 0.0.4
 
 This is pretty much just a script I was writing for a very specific project, so
 I don't know how fully I will flesh this out, hence the very early version
@@ -41,7 +41,7 @@ files.
 
 NOTE: This demo requires wget (brew install wget) and mapshaper (npm install -g mapshaper)
 
-To use it, git clone this repository into some_dir
+To use it, install toposplit, and then git clone this repository into some_dir
 
    $ git clone https://github.com/jakekara/toposplit.git
 
@@ -56,5 +56,5 @@ Run the demo script:
 
 ABOUT
 
-This is my first node program. I'm surprised this feature wasn't in the topojson
-utilities Mike Bostock wrote or mapshaper. As the demo explains, both
+This is my first node program and package. I'm surprised this feature
+wasn't in the topojson utilities Mike Bostock wrote or mapshaper. 
