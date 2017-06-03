@@ -1,3 +1,7 @@
+0.0.4
+- Updated command-line-args to 4.0.6 -- holy cow they had a lot
+  	  		       	        of version increases
+  	  		       	     	
 0.0.2
 - Added exception handling
 - Reordered functions to better abstract components

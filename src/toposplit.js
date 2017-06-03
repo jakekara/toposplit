@@ -97,7 +97,7 @@ var usage = function()
     console.error("");
     console.error("toposplit");
     console.error("---------");
-    console.error("usage: toposplit --input INPUT_FILE\
+    console.error("usage: toposplit --input INPUT_FILE \
 [--outdir OUTPUT_DIRECTORY | --feature FEATURE_TO_SPLIT]");
     console.error("");
     process.exit(0);

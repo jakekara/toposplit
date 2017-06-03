@@ -34,7 +34,7 @@ mapshaper -i raw/tl_2016_09_tabblock10/tl_2016_09_tabblock10.shp -simplify 0.75 
 echo
 echo "FINALLY, TOPOSPLITTING IT"
 echo "========================="
-toposplit -i raw/tl_2016_09_tabblock10.topojson -o parts
+toposplit --input raw/tl_2016_09_tabblock10.topojson --outdir parts
 
 echo
 echo "Separated parts should be in the parts directory now."

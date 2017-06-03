@@ -1,25 +1,25 @@
 {
-  "name": "toposplit",
-  "version": "0.0.3",
-  "description": "split topojson file into a folder of topojson files, one for each object.",
-  "bin": {
+    "name": "toposplit",
+    "version": "0.0.4",
+    "description": "split topojson file into a folder of topojson files, one for each object.",
+    "bin": {
 	"toposplit": "bin/toposplit.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/jakekara/toposplit.git"
-  },
-  "keywords": [
-    "topojson"
-  ],
-  "author": "Jake Kara",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/jakekara/toposplit/issues"
-  },
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+ssh://git@github.com/jakekara/toposplit.git"
+    },
+    "keywords": [
+	"topojson"
+    ],
+    "author": "Jake Kara",
+    "license": "GPL-3.0",
+    "bugs": {
+	"url": "https://github.com/jakekara/toposplit/issues"
+    },
     "homepage": "https://jakekara.github.io/toposplit",
     "dependencies":{
 	"topojson":"2.2.0",
-	"command-line-args":"1.0.2"
+	"command-line-args":"4.0.6"
     }
 }
